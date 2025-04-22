@@ -1,0 +1,7 @@
+#profile .in_profile{
+  width: 75vw;
+  height: 526px;
+  margin: 0 auto;
+  background-color: #faa7;
+  display: flex;
+}
