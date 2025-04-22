@@ -1,7 +1,51 @@
+#profile h2{
+  width: 100%;
+  padding-top: 170px;
+  font-size: 55px;
+  text-align: center;
+  /* background-color: #afa7; */
+
+}
+
 #profile .in_profile{
-  width: 75vw;
-  height: 526px;
+  padding-top: 20px;
+  width: 950px;
+  height: auto;
   margin: 0 auto;
-  background-color: #faa7;
+  /* background-color: #faa7; */
+}
+
+#profile .face-img{
+  width: 100%;
+  height: 250px;
   display: flex;
+  justify-content: space-between;
+}
+
+#profile .face-img img{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin-top: 25px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#profile .face-img figcaption{
+  width: 70%;
+}
+
+#profile .face-img figcaption h4{
+  font-size: 25px;
+}
+
+#profile .face-img figcaption p{
+  font-size: 14px;
+  line-height: 2;
+}
+
+#profile .in_profile > p{
+  margin-top: 25px;
+  font-size: 18px;
+  line-height: 1.5;
 }
